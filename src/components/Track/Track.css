@@ -1,0 +1,43 @@
+.Track {
+    display: flex;
+    box-sizing: border-box;
+    width: 93.2%;
+    border-bottom: 1px solid #fff;
+    justify-content: space-between;
+    margin: 0.5vw 1vw;
+    align-items: center;
+}
+
+.Track.info{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2 {
+    text-align: left;
+    margin: 0.5vw 0 0.5vw 0;
+}
+
+.info p {
+    text-align: left;
+    margin: 0.5vw 0 1vw 0;
+    color: lightgrey;
+}
+
+.Track button{
+    all: unset;
+    background-color: transparent;
+    color: #fff;
+    padding: 2vh 1.25vw 2vh 2vw;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.Track button:hover {
+    color: lightblue;
+}
+
+.Track button:active {
+    color: #fff;
+}

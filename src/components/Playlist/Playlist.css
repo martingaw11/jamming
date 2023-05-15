@@ -1,0 +1,41 @@
+.Playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    overflow-y: auto;
+}
+
+.Playlist::-webkit-scrollbar {
+    width: 0px;
+    background-color: transparent;
+}
+
+.Playlist input {
+    font-size: 30px;
+    line-height: 1.5;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    height: 4vh;
+    padding: 2vh 0 0.3vh 0;
+    margin: 0 1.5vw 1.2vh 1.5vw;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 0.1vw solid #FFFFFFB2;
+}
+
+.Playlist button.save {
+    width: 60%;
+    background-color: #855d99;
+    border: none;
+    margin: 0 20% 3vh 20%;
+    border-radius: 10px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: hsla(0, 0%, 90%, 1);
+    box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.5);
+}
